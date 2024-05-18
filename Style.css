@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background: blueviolet;
+    box-shadow: 0px 0px 15px black;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.header .links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin-right: 35px;
+    transition: all ease-in .4s;
+}
+
+.header .links a:hover{
+    color: brown;
+}
+.landing-page{
+    width: 100%;
+    height: 800px;
+    background: url('https://img.freepik.com/free-vector/gradient-mountain-landscape_23-2149159772.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+.landing-page h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+.landing-page h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+.landing-page P{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+.services{
+    width: 100%;
+    height: 500px;
+    background: whitesmoke;
+    padding: 20px 40px;
+}
+.services .title{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.services .title h1{
+    letter-spacing: 10px;
+}
+.services .items{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.services .items .cards{
+    width: 22%;
+    height: 100%;
+    border: 2px solid silver;
+    border-radius: 5px;
+    transition: all ease-in 0.4s;
+}
+.services .items .cards img{
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.services .items .cards p{
+    width: 100%;
+    height: 20px;
+    font-size: 15px;
+    padding: 18px;
+    text-align: justify;
+}
+.services .items .cards:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.06);
+    border: 5px;
+}
+.about{
+    width: 100%;
+    height: 800px;
+    padding: 20px 40px;
+}
+
+.about .title{
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.about .content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.about .content p{
+    font-size: 18px;
+}
+
+.about .content img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: all .2s ease-in;
+}
+
+.about .content img:hover{
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.contact{
+    width: 100%;
+    height: 650px;
+    background: whitesmoke;
+    padding: 20px 5%;
+}
+.contact .title{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.contact .background{
+    width: 40%;
+    height: 500px;
+    float: left;
+    background: url('https://img.freepik.com/premium-photo/beautiful-sunset-mountains_783884-5084.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.contact .contact-form{
+    width: 60%;
+    height: 500px;
+    float: left;
+    background: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid blueviolet;
+    border-left: none;
+    padding: 15px 5%;
+}
+.contact .contact-form form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 40px 0px;
+}
+.contact .contact-form form input,
+.contact .contact-form form select{
+    width: 45%;
+    padding: 12px;
+    border: 3px solid silver;
+    border-radius: 4px;
+    outline: none;
+    font-size: ;
+}
+.contact .contact-form form input:focus,
+.contact .contact-form form select:focus,
+.contact .contact-form form textarea:focus{
+    border: 3px solid blueviolet;
+}
+
+.contact .contact-form form textarea{
+    width: 92%;
+    padding: 12px;
+    border: 3px solid silver;
+    border-radius: 4px;
+    outline: none;
+    font-size: 18px;
+}
+.contact .contact-form form input[type="submit"]{
+    width: 92%;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: all ease-in 0.4s;
+}
+.contact .contact-form form input[type="submit"]:hover{
+    background: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
